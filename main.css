@@ -3,8 +3,10 @@ body {
 }
 
 h1 {
-     color: green;
+    font-size: 100;
+    font-family: Macondo; 
+    color: black;
      text-align: center;
      margin-top:320px;
-     text-shadow: 5, 5, 5px, darkgreen;
+     text-shadow: 5, 5, 5px, green;
 }
