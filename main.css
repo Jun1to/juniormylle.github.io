@@ -7,7 +7,7 @@ h1 {
     font-family: Macondo; 
     color: green;
      text-align: center;
-     margin-top: 315px;
+     margin-top: 300px;
      text-shadow: 0 0 10px #003300;
 }
 
@@ -16,7 +16,7 @@ h3 {
     font-family: Macondo; 
     color: green;
      text-align: center;
-     margin-top: -65px;
+     margin-top: -80px;
      text-shadow: 0 0 7px #003300;
 } 
 
@@ -25,6 +25,6 @@ h6 {
     font-family: Macondo; 
     color: green;
      text-align: center;
-     margin-top: -45px;
+     margin-top: -60px;
      text-shadow: 0 0 5px #003300;
 }
