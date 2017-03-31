@@ -16,6 +16,15 @@ h3 {
     font-family: Macondo; 
     color: green;
      text-align: center;
-     margin-top: -50px;
+     margin-top: -65px;
      text-shadow: 0 0 7px #003300;
 } 
+
+h6 {
+           font-size: 40px;
+    font-family: Macondo; 
+    color: green;
+     text-align: center;
+     margin-top: -45px;
+     text-shadow: 0 0 5px #003300;
+}
