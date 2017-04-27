@@ -1,33 +1,31 @@
 body {
-    background-color: lightgreen;
+  animation-name: bg;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
-
 h1 {
-    font-size: 100px;
-    font-family: Macondo; 
-    color: green;
-     text-align: center;
-     margin-top: 230px;
-     text-shadow: 0 0 10px #003300;
+  font-family: roboto thin;
+  animation-name: text;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  text-align: center;
+  font-size: 70px;
+  transition: all 1s cubic-bezier(0.94, 0.95, 0.94, 0.06)
 }
-
-h3 {
-       font-size: 60px;
-    font-family: Macondo; 
-    color: green;
-     text-align: center;
-     margin-top: -90px;
-     text-shadow: 0 0 7px #003300;
-} 
-
-h6 {
-           font-size: 40px;
-    font-family: Macondo; 
-    color: green;
-     text-align: center;
-     margin-top: -60px;
-     text-shadow: 0 0 5px #003300;
-}
+  
 h1:hover {
-    background-color: yellow;
+  transform: rotate(5deg);
+  font-size: 80px;
+}
+
+@keyframes bg {
+  0%   {background-color: white;}
+  100% {background-color: black;}
+}
+
+@keyframes text {
+  0%   {color: black;}
+  100% {color: white;}
 }
