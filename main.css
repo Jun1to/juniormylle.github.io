@@ -21,13 +21,13 @@ h1:hover {
 }
 
 @keyframes bg {
-  0%   {background-color: white;}
-  100% {background-color: black;}
+  0%   {background-color: black;}
+  100% {background-color: white;}
 }
 
 @keyframes text {
-  0%   {color: black;}
-  100% {color: white;}
+  0%   {color: white;}
+  100% {color: black;}
 }
 
 h6 {
