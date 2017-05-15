@@ -1,32 +1,65 @@
 body {
-  animation-name: bg;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+   background-color: white;
+   overflow: 0;
+}
+#screen_overlay {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 850px;
+    height: 550px;
+    background-color: #1A1A1A;
+    border-radius: 15px;
+    padding: 0 50px 0 50px;
 }
 h1 {
+  color: white;
   font-family: roboto thin;
-  animation-name: text;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
   text-align: center;
   font-size: 70px;
-  transition: all 1s cubic-bezier(0.94, 0.95, 0.94, 0.06)
+  transition: all 1s cubic-bezier(0.94, 0.95, 0.94, 0.06);
+  margin-bottom: 10px;
+  margin-top: 30px;
+  
 }
   
 h1:hover {
-  transform: rotate(5deg);
+  transform: rotate(-5deg);
   font-size: 80px;
 }
 
-@keyframes bg {
-  0%   {background-color: black;}
-  100% {background-color: white;}
+a {
+    font-size: 25px;
+    color: white;
+    background-color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+ 
 }
 
-@keyframes text {
-  0%   {color: white;}
-  100% {color: black;}
+h6 {
+  color: white;
+  font-family: roboto thin;
+  text-align: center;
+  font-size: 35px;
+  transition: all 1s cubic-bezier(0.94, 0.95, 0.94, 0.06);
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
+
+p {
+  color: white;
+  font-family: roboto thin;
+  text-align: center;
+  font-size: 20px;
+  transition: all 1s cubic-bezier(0.94, 0.95, 0.94, 0.06);
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
 
