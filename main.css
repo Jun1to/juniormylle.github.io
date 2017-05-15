@@ -27,7 +27,7 @@ h1 {
 }
   
 h1:hover {
-  transform: rotate(-5deg);
+  transform: rotate(4deg);
   font-size: 80px;
 }
 
@@ -63,6 +63,10 @@ p {
 }
 table {
 margin-left: 19%;
+}
+
+#logo {
+transform: rotate(4deg);
 }
 
 
