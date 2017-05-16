@@ -1,8 +1,10 @@
 body {
    background-color: white;
    overflow: 0;
-   transition: all 0.2s cubic-bezier(0.4, 0.0, 0.2, 1);
 }
+
+* { transition: all 0.2s cubic-bezier(0.4, 0.0, 0.2, 1); }
+
 #screen_overlay {
     position: absolute;
     margin: auto;
@@ -21,7 +23,6 @@ h1 {
   font-family: roboto thin;
   text-align: center;
   font-size: 70px;
-    border: 2px solid white;
   margin-bottom: 10px;
   margin-top: 30px;
   
